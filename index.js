@@ -16,6 +16,7 @@ const sampleEmployee = {
 	},
 };
 
+
 app.get("/api/employees", (req, res) => {
 	res.json({ results: [sampleEmployee] });
 });
